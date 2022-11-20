@@ -33,7 +33,7 @@ const Contents = () => {
         <div className="post-list-container">
           <div>
             <div className="post-list-container-title">
-              <strong>최근 게시글</strong>
+              <strong>최근 작성한 게시글</strong>
             </div>
           </div>
           <ol style={{ listStyle: `none` }}>
@@ -47,13 +47,15 @@ const Contents = () => {
                     itemScope
                     itemType="http://schema.org/Article"
                   >
-                    <header>
+                    <header style={{ display: "flex" }}>
                       <h2>
                         <Link to={post.fields.slug} itemProp="url">
                           <span itemProp="headline">{title}</span>
                         </Link>
                       </h2>
-                      <small>{post.frontmatter.date}</small>
+                      <div className="post-list-item-date">
+                        <small>{post.frontmatter.date}</small>
+                      </div>
                     </header>
                     <section>
                       <p
@@ -64,7 +66,7 @@ const Contents = () => {
                       />
                     </section>
                   </article>
-                  <hr />
+                  <div></div>
                 </li>
               )
             })}

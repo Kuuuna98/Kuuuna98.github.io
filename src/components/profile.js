@@ -61,7 +61,7 @@ const Bio = () => {
           alt="Profile picture"
         />
       )}
-      <div>
+      <div className="profile-name">
         {author?.name && (
           <div>
             <p className="name">
