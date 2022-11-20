@@ -1,9 +1,9 @@
 ---
-title: 컬러볼🎱
-description: 백준 알고리즘 문제풀이 bj10800 컬러볼 https://www.acmicpc.net/problem/10800
+title: 단지번호붙이기🍀
+description: 백준 알고리즘 문제풀이 bj2667 https://www.acmicpc.net/problem/2667 단지번호붙이기
 category: 알고리즘
 tags: [hello]
-date: 2022-11-13T10:57:35.157Z
+date: 2022-11-18T21:10:55.157Z
 ---
 ![](./풀이.jpeg)
 - 소요 시간: 1시간 20분

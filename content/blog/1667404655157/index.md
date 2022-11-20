@@ -1,11 +1,11 @@
 ---
-title: 컬러볼🎱
-description: 백준 알고리즘 문제풀이 bj10800 컬러볼 https://www.acmicpc.net/problem/10800
+title: Gaaaaaaaaaarden
+description: 백준 알고리즘 문제풀이 bj18809 Gaaaaaaaaaarden https://www.acmicpc.net/problem/18809
 category: 알고리즘
 tags: [hello]
-date: 2022-11-13T10:57:35.157Z
+date: 2022-11-03T00:57:35.157Z
 ---
-![](./풀이.jpeg)
+
 - 소요 시간: 1시간 20분
 - 메모리: 82076 KB
 - 시간: 796 ms

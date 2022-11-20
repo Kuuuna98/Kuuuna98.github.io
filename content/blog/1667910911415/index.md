@@ -1,110 +1,135 @@
 ---
-title: New Beginnings
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
-category: category2
+title: 주사위 굴리기 2🎲
+description: 백준 알고리즘 문제풀이 bj23288 https://www.acmicpc.net/problem/23288 주사위 굴리기 2
+category: 알고리즘
 tags: [new, hello]
 date: 2022-11-08T12:35:11.415Z
 ---
+![](./풀이.jpeg)
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+```
+package a0420;
 
-## On deer horse aboard tritely yikes and much
+import java.io.*;
+import java.util.*;
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+public class Main_bj_23288 {
+    static int[] di = {-1, 0, 1, 0}, dj = {0, 1, 0, -1};
+    static int[][] map, scoreBoard;
+    static boolean[][] visited;
+    static int N, M;
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+        map = new int[N][M];
+        scoreBoard = new int[N][M];
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine(), " ");
+            for (int j = 0; j < M; j++) {
+                map[i][j] = Integer.parseInt(st.nextToken());
+            }
+        }
 
-### Overlaid the jeepers uselessly much excluding
+        visited = new boolean[N][M];
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
+                if (!visited[i][j]) {
+                    bfs(i, j);
+                }
+            }
+        }
+        //현재 주사위 위치 (i,j), 방향, 최종점수
+        int i = 0, j = 0, dir = 3, score = 0;
+        //주사위 북, 서, 아래 면의 값
+        int ptN = 2, ptW = 4, ptD = 6;
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+        for (int k = 0; k < K; k++) {
+            //1. 주사위가 이동 방향으로 한 칸 굴러간다.
+            int ni = i + di[dir];
+            int nj = j + dj[dir];
+            if (ni < 0 || N <= ni || nj < 0 || M <= nj) {
+                // 만약, 이동 방향에 칸이 없다면, 이동 방향을 반대로 한 다음 한 칸 굴러간다.
+                dir = (dir + 2) % 4;
+                ni = i + di[dir];
+                nj = j + dj[dir];
+            }
+            i = ni;
+            j = nj;
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+            //전개도 변경 => 포인터 값 변경
+            int tmp;
+            switch (dir) {
+                case 0: //북
+                    tmp = ptN;
+                    ptN = 7 - ptD;
+                    ptD = tmp;
+                    break;
+                case 1: //동
+                    tmp = ptD;
+                    ptD = 7 - ptW;
+                    ptW = tmp;
+                    break;
+                case 2: //남
+                    tmp = ptN;
+                    ptN = ptD;
+                    ptD = 7 - tmp;
+                    break;
+                default: //서
+                    tmp = ptD;
+                    ptD = ptW;
+                    ptW = 7 - tmp;
+                    break;
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+            }
 
-### According a funnily until pre-set or arrogant well cheerful
+            //주사위가 도착한 칸 (x, y)에 대한 점수를 획득
+            score += scoreBoard[i][j];
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+            // 주사위의 아랫면에 있는 정수 A와 주사위가 있는 칸 (x, y)에 있는 정수 B를 비교해 이동 방향을 결정
+            if (ptD < map[i][j]) { // A < B인 경우 이동 방향을 90도 반시계 방향으로 회전
+                dir = dir == 0 ? 3 : dir - 1;
+            } else if (ptD > map[i][j]) { // A > B인 경우 이동 방향을 90도 시계 방향으로 회전
+                dir = (dir + 1) % 4;
+            }
+            // A = B인 경우 이동 방향에 변화는 없다.
+        }
+        System.out.println(score);
+        br.close();
+    }
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
+    static void bfs(int i, int j) {
+        LinkedList<int[]> queue = new LinkedList<>();
+        LinkedList<int[]> squeue = new LinkedList<>();
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
+        visited[i][j] = true;
+        queue.offer(new int[]{i, j});
+        int cnt = 0, num = map[i][j];
 
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
+        while (!queue.isEmpty()) {
+            int[] ij = queue.poll();
+            cnt++;
+            for (int z = 0; z < 4; z++) {
+                int ni = ij[0] + di[z];
+                int nj = ij[1] + dj[z];
+                if (0 <= ni && ni < N && 0 <= nj && nj < M && !visited[ni][nj] && map[ni][nj] == num) {
+                    visited[ni][nj] = true;
+                    queue.offer(new int[]{ni, nj});
+                }
+            }
+            squeue.offer(ij);
+        }
+        cnt *= num; // 점수 = 해당 칸에 적힌 숫자 * 연속이동 가능 횟수
+        while (!squeue.isEmpty()) {
+            int[] ij = squeue.poll();
+            scoreBoard[ij[0]][ij[1]] = cnt;
+        }
+    }
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
+}
 
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+```
