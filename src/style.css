@@ -247,7 +247,7 @@ a:focus {
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10);
   /* 포스트 배경색 */
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 /* .global-wrapper[data-is-root-path="true"] .profile {
@@ -265,6 +265,7 @@ a:focus {
 
 .post-list-container {
   margin: var(--spacing-2);
+  border-radius: 6px;
 }
 
 .post-list-container div {
@@ -278,6 +279,10 @@ a:focus {
 
 .post-list-container-title {
   height: "10%";
+}
+
+.post-list-container-title strong {
+  margin-left: var(--spacing-3);
 }
 
 .post-list-item {
@@ -302,7 +307,9 @@ a:focus {
 .profile {
   padding-top: var(--spacing-4);
   margin: var(--spacing-2);
-  border-radius: 10px;
+  border-radius: 6px;
+  /* border: 1px solid #f2f2f2; */
+  padding-bottom: 15px;
 }
 
 .profile p {
@@ -310,6 +317,7 @@ a:focus {
 }
 
 .profile .name {
+  padding-top: 5px;
   text-align: center;
   font-size: var(--fontSize-2);
 }
@@ -324,6 +332,14 @@ a:focus {
   margin-bottom: var(--spacing-0);
   min-width: 200px;
   border-radius: 100%;
+}
+
+.profile-name {
+  background-color: #f6f6f6;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  padding-bottom: 5px;
 }
 
 .profile-social {
@@ -384,8 +400,8 @@ a:focus {
 }
 
 .logo-img {
-  width: 120px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -394,7 +410,7 @@ a:focus {
   align-items: center;
   height: 30vh;
   margin: var(--spacing-2);
-  /* border-radius: 5px; */
+  border-radius: 6px;
   overflow: hidden;
   position: relative;
 }
@@ -431,12 +447,15 @@ a:focus {
   width: 100%;
   padding-top: var(--spacing-8);
   padding-bottom: var(--spacing-8);
+  margin-left: var(--spacing-4);
+  margin-right: var(--spacing-2);
 }
 
 .category {
   margin: var(--spacing-2);
   padding: var(--spacing-4);
-  border-radius: 10px;
+  border-radius: 6px;
+  /* border: 1px solid #97a0ac; */
 }
 
 .category p {
@@ -473,11 +492,11 @@ a:focus {
   grid-template-columns: 4fr 1fr;
 }
 
-/* CustomCSS */
-
 body {
-  background-color: #ffffff;
+  background-color: #b0c4e3;
 }
+
+/* CustomCSS */
 
 .category {
   background-color: #ffffff;
@@ -505,19 +524,19 @@ body {
 
 .post-list-container {
   background-color: #ffffff;
-  color: #000000;
+  color: #3d4f54;
 }
 
 .post-list-container-title {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 0.5px solid #3d4f54;
 }
 
 .post-list-item h2 {
-  color: #000000;
+  color: #3d4f54;
 }
 
 .page-container {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 
   /* justify-content: flex-start; */
   justify-content: flex-end;
@@ -526,5 +545,5 @@ body {
 
 .page a {
   /* 페이지 텍스트 색상 */
-  color: #000000;
+  color: #3d4f54;
 }
