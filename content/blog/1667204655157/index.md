@@ -3,7 +3,7 @@ title: QueryDSL
 description: QueryDSL, 네이티브 SQL, 객체지향 쿼리 심화
 category: JPA
 tags: [hello]
-date: 2021-11-13T10:57:35.157Z
+date: 2022-11-13T10:57:35.157Z
 ---
 
 지금 시대는 객체를 관계형 데이터베이스에 관리

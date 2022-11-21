@@ -1,11 +1,11 @@
 ---
-title: QueryDSL
-description: QueryDSL, 네이티브 SQL, 객체지향 쿼리 심화
+title: 다양한 연관관계 매핑
+description: 다대일 | 일대다 | 다대다 ..
 category: JPA
 tags: [hello]
-date: 2021-11-13T10:57:35.157Z
+date: 2021-11-15T10:57:35.157Z
 ---
-
+![](./고민.png)
 지금 시대는 객체를 관계형 데이터베이스에 관리
 
 **SQL 중심적인 개발의 문제점**
