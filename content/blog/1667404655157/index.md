@@ -1,6 +1,6 @@
 ---
-title: Gaaaaaaaaaarden
-description: 백준 알고리즘 문제풀이 bj18809 Gaaaaaaaaaarden https://www.acmicpc.net/problem/18809
+title: Fly me to the Alpha Centauri
+description: 백준 알고리즘 문제풀이 https://www.acmicpc.net/problem/1011
 category: 알고리즘
 tags: [hello]
 date: 2022-11-03T00:57:35.157Z
