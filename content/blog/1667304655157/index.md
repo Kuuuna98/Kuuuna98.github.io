@@ -1,6 +1,6 @@
 ---
 title: 봄버맨
-description: 백준 알고리즘 문제풀이 bj16918 https://www.acmicpc.net/problem/16918 봄버맨
+description: 백준 알고리즘 문제 https://www.acmicpc.net/problem/16918
 category: 알고리즘
 tags: [hello]
 date: 2022-11-07T16:04:15.157Z
