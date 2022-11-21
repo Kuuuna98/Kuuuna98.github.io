@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[안녕하세요^^*
-오픈소스 개발 블로그입니다]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Nov 2022 01:05:33 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/contact/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/contact/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요
+오픈소스 개발 블로그입니다]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Nov 2022 02:00:37 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/contact/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/contact/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
@@ -29,7 +29,116 @@
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[단지번호붙이기🍀]]></title><description><![CDATA[소요 시간: 1시간 20분 메모리: 82076 KB 시간: 796 ms 문제 접근 자신보다 크기가 작고, 다른 색인 공만 잡을 수 있다
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[피자 굽기 🍕]]></title><description><![CDATA[피자 굽기 🍕 소요 시간 메모리 시간: 58분 82740 KB 500 ms 문제 접근 오븐 위치마다 크기가 다르지만, 오븐의 상위 크기보다 클 경우는 소용이 없다.  문제 풀이 오븐의 깊이(D)와 피자반죽의 개수(N)를 입력받고, 정수형…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/blog/1668995903402/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/blog/1668995903402/</guid><pubDate>Mon, 21 Nov 2022 01:58:24 GMT</pubDate><content:encoded>&lt;p&gt;피자 굽기 🍕&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;소요 시간&lt;/th&gt;
+&lt;th&gt;메모리&lt;/th&gt;
+&lt;th&gt;시간:&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;58분&lt;/td&gt;
+&lt;td&gt;82740 KB&lt;/td&gt;
+&lt;td&gt;500 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;문제 접근&lt;/h2&gt;
+&lt;p&gt;오븐 위치마다 크기가 다르지만, 오븐의 상위 크기보다 클 경우는 소용이 없다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/058725cb4536d1d8c4cb354f7fd67a4f/c6d67/%ED%92%80%EC%9D%B4%EC%9D%B4%EB%AF%B8%EC%A7%80.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.10126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABeUlEQVQoz3WSbU/bMBSF+///DN8REnxhA4S0liEQFNqVdaIa5K2JE9ux7zNdt6kCGlc6spM4j8491xMRQQBEmFvHHPglwlIkrQsRHkXSdxlJy1pLjJHd77v3E32IIpg857gsuQbuRLjdaybC6RdAYwxFUeC9P0AT0Pc9+dsbP0LkXuBJ3Yqk9UGEb5+AWn3fJ4d1XbPdbj8CddMaQxkCJ03DY4isIbWtLV/8B1hVVVLbtgl+AA4HhsqcZ+oc586xAO5FOB+AGk+MZFmWnI3rQ4YhhJTFtq7xpuG5qjhzjj+QBvJ9BBzcNU2TpPuu60YO93m8Zxlt19EZw19rmQGv6gaY7rtQd9qiAnQguleng9uDw3TYe4K1eGtx1vKzKDiqGy6A47gD6jQ3m01ypgMZNL46k6v5nNnqhdv1munqhd95rhmwzjJuYuQVuIyChJCiUVfa5uc6ZLhoO1bWJi07y7v3RI2gLFmGwBJ46nvqqkoZ6xXRdseQsf4B/AgI3kngaCAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;     &quot;
+        title=&quot;     &quot;
+        src=&quot;/static/058725cb4536d1d8c4cb354f7fd67a4f/f058b/%ED%92%80%EC%9D%B4%EC%9D%B4%EB%AF%B8%EC%A7%80.png&quot;
+        srcset=&quot;/static/058725cb4536d1d8c4cb354f7fd67a4f/c26ae/%ED%92%80%EC%9D%B4%EC%9D%B4%EB%AF%B8%EC%A7%80.png 158w,
+/static/058725cb4536d1d8c4cb354f7fd67a4f/6bdcf/%ED%92%80%EC%9D%B4%EC%9D%B4%EB%AF%B8%EC%A7%80.png 315w,
+/static/058725cb4536d1d8c4cb354f7fd67a4f/f058b/%ED%92%80%EC%9D%B4%EC%9D%B4%EB%AF%B8%EC%A7%80.png 630w,
+/static/058725cb4536d1d8c4cb354f7fd67a4f/c6d67/%ED%92%80%EC%9D%B4%EC%9D%B4%EB%AF%B8%EC%A7%80.png 734w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;문제 풀이&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;오븐의 깊이(D)와 피자반죽의 개수(N)를 입력받고, 정수형 1차원 배열 oven을 D+1의 크기로 정의한다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;oven[0]에 정수의 최댓값을 저장한다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오븐의 지름을 oven에 순차적으로 저장한다. 이때, 이전 오븐지름 크기와 현재 입력받는 지름크기 중 더 작은 값으로 저장한다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;입력으로 주어지는 피자의 지름을 확인하며, 오븐에 들어갈 수 있는지를 체크하기 위해 end 변수를 D+1로 초기화한다 (end: 현재 피자를 넣을 수 있는 오븐의 위치)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;피자 반죽 개수만큼 반복한다.&lt;br&gt;
+5-1. 피자의 지름을 입력받아 pizza에 저장한다&lt;br&gt;
+5-2. 피자를 넣었으므로 end를 1 줄인다&lt;br&gt;
+5-3. 피자 지름이 오븐 지름보다 같거나 작을 때까지 end(오븐의 위치)를 1씩 줄인다&lt;br&gt;
+5-4. end가 0이면 더이상 피자를 넣을 수 없다는 의미이므로 반복문을 빠져나온다&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;end값을 출력한다&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;전체 코드&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token import&quot;&gt;&lt;span class=&quot;token namespace&quot;&gt;java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;BufferedReader&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token import&quot;&gt;&lt;span class=&quot;token namespace&quot;&gt;java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;InputStreamReader&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token import&quot;&gt;&lt;span class=&quot;token namespace&quot;&gt;java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;util&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringTokenizer&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Main_bj1759&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Exception&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;BufferedReader&lt;/span&gt; br &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BufferedReader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;InputStreamReader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;in&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;StringTokenizer&lt;/span&gt; st &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringTokenizer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;br&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readLine&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;st&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextToken&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;st&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextToken&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; oven &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        oven&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;MAX_VALUE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        st &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringTokenizer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;br&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readLine&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            oven&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;oven&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;st&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextToken&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; end&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        st &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringTokenizer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;br&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readLine&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; pizza &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;st&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextToken&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            end&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;end&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pizza&lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt;oven&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;end&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;end&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;end&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        br&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[단지번호붙이기🍀]]></title><description><![CDATA[소요 시간: 1시간 20분 메모리: 82076 KB 시간: 796 ms 문제 접근 자신보다 크기가 작고, 다른 색인 공만 잡을 수 있다
 -> 정렬
 -> 크기가 작은 공부터 크기를 합쳐서 계산 (누적합) 문제 풀이 Node…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/blog/1668704655157/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/blog/1668704655157/</guid><pubDate>Fri, 18 Nov 2022 21:10:55 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
