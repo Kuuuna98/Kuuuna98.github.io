@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[안녕하세요^^*
-오픈소스 개발 블로그입니다]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Dec 2022 06:27:03 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/contact/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/contact/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요
+오픈소스 개발 블로그입니다]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Dec 2022 06:39:32 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자유롭게 작성해보세요]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/contact/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/contact/</guid><content:encoded>&lt;p&gt;자유롭게 작성해보세요
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
@@ -24,6 +24,43 @@
 /static/bbc5de106af69f58193515f109ebcb15/6bdcf/%EA%B8%B0%EC%81%A8.png 315w,
 /static/bbc5de106af69f58193515f109ebcb15/0b533/%EA%B8%B0%EC%81%A8.png 500w&quot;
         sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[프롤로그👍]]></title><description><![CDATA[서비스 소개 손쉬운 블로그 개설 사용자 편의를 고려한 대시보드 복잡함을 해결한 게시글 관리 커스텀이 가능한 블로그 설정]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/blog/1670222223775/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/blog/1670222223775/</guid><pubDate>Mon, 05 Dec 2022 06:37:03 GMT</pubDate><content:encoded>&lt;h3&gt;서비스 소개&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;손쉬운 블로그 개설&lt;/li&gt;
+&lt;li&gt;사용자 편의를 고려한 대시보드&lt;/li&gt;
+&lt;li&gt;복잡함을 해결한 게시글 관리&lt;/li&gt;
+&lt;li&gt;커스텀이 가능한 블로그 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7e96bc111dffb404d0b2875fd33e6e05/a2b88/prologue_logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 109.49367088607596%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAACxLAAAsSwGlPZapAAAEMUlEQVQ4y5WUXUwcVRTHzw5NxGJhVhsbE9sXfdFE2u4aNdpUNPEJNbZvfiQV6y6JiRJJiLQYH+kDb8aYGMAQSHD7oNSNW2A38MDKLNJNDRBYGz4CXT5nM+wuOzuTnXt2jjmzuyC0PvQmJ/fOnTm/c+7/nDsAjzie8jSB2+urmEv2NoPb62fzuL3+k4/KA7fHVzGX7GkGuQS7Lnt8oq7+4xf+1xERHzAhhIuIoKaes2wG2eMH2eO74fb6ST7/2aTnJh0AhBBHAS5ElBDxmBCiqgREsISQzlz8UoITjfDky/522eMn2eOjupc++lD2+OBhgCohhHQkM56rBeLjnCE8fQlAfu+NE+c+J7e3meRzTQoAuJzMUqmUK5/PH8qwvJYR8QIitiPiTUScFUKs6Xnzre5ABHzXfvz9zMWv6In6JtP94gev1dV/AnVnr0gMhGKxyJBnELEBEa8j4m+IeF8IQYhIPFuW5cwCcfH+6tKV5NoK/TIUKT72XOP7ta98DW9f/UE6+zMB5HK5y4gYF0KkHgIoCn4gYitalkAiItzbsNNby/T3ncnW774fgp9uzUmp0NVSMRRFOW+apl0sFhmAbBUAEdlsyWTSTiQSvKa/Yn9i8t405dWl2XffuXCc6B+4Gw26gv1dcPz06wAscjKZ/LacmbBt297Y2GAAzczM2NFolOLxOIXDYQ5qt7S0iPHIbY73DfsSiWM83wr+AdXV1QDd3d3Q2dnp1nV9jaH85fT0tM2QnZ0dKhQKvEdbW1vE+7quC8QiazlcApLLNA2oqakpHZmIqvjF5uZme0kuErOzs7amac4RWUs2HpOTk07AssZaJpM5lcvpYBiGa7+h5+bmXPF4HMbGxk4bhpFmDwaurq46ENaWRyqVIkVRHE1ZGYZms1mvYRgMlPaB4XCYs5Q4y2w2O2TbNuXzeTE1NWXPz89TOp0mTdMoFArxvqMjV5/l0TTtTe5hXdelQ/eWiBxh0+n0Nc6IdeKqxmIxpyC8NzExQRyMYfxsGMbWyMjIqVgsBsvLywdHLhQKHKFK13XIZDKfcmTTNHFhYcFWFIUikYhz5MXFxUqGgr9RVbWzXJSqo9nxLeEfAJim2crasFO5B1knLoCzRkQbEZ2iqKraqGka37TDx81kMvsaWpb1a6Ufy9V1NGOQZVnc9Jydk6FhGJcsy2IfSVGUA6Cu6y5VVbltagqFwr0KsDIYxpqxfmwcyDAM2t3dbc3lco5ctbW1B8ClpaXKkv86CjtVADxzY+u6nlNV9c7KykpvPB7/ore399W2tja3z+eDrq4uOAT8b3Nvb2+3maZJmUxmdX19/XYikbgxPj5+uaOj43kAqC4XAaLRKPT19UFPTw+EQqEHgYFAAILBIAwPDz8bCAQaGhoaTlac9/b2oL+/vxKYtWbNpMHBQRgYGIDR0dFDwH8BwjZKxtIeWUAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;prologue logo&quot;
+        title=&quot;prologue logo&quot;
+        src=&quot;/static/7e96bc111dffb404d0b2875fd33e6e05/f058b/prologue_logo.png&quot;
+        srcset=&quot;/static/7e96bc111dffb404d0b2875fd33e6e05/c26ae/prologue_logo.png 158w,
+/static/7e96bc111dffb404d0b2875fd33e6e05/6bdcf/prologue_logo.png 315w,
+/static/7e96bc111dffb404d0b2875fd33e6e05/f058b/prologue_logo.png 630w,
+/static/7e96bc111dffb404d0b2875fd33e6e05/a2b88/prologue_logo.png 908w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
